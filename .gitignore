@@ -1,0 +1,16 @@
+# Résultats d'audit AWS : ne pas publier les données brutes
+evidence/**
+
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+credentials
+config.local
+
+# Fichiers temporaires
+*.log
+*.tmp
