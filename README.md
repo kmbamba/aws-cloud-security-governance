@@ -77,6 +77,9 @@ Depuis la racine du projet :
 
 ```bash
 chmod +x scripts/audit.sh
+
+export AUDIT_BUCKET_NAME="your-audit-bucket-name"
+
 ./scripts/audit.sh
 ```
 
